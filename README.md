@@ -23,3 +23,19 @@ In this part,I answer my questions. For the first 2 questions, I use EDA to find
 >Based on the zipcode, 98122 area is the most popular neighborhood for listings.
 * **Question3:How well can I predict the price(in airbnb) of a property based on the data?**
 >Based on the model results, the best R-square for test data is 0.527. The best model use 19 out of 38 features as predictors.
+
+
+#### References:
+>Function name: `find_optimal_lm_mod(X, y, cutoffs, test_size = .30, random_state=42, plot=True)`
+> 
+>Lesson Title: `Putting It All Together - Solution.ipynb` 
+> 
+> Sources Code Name: `AllTogether.py`
+> 
+>Author: Udacity "Introduction to Data Science"
+> 
+>Date: 2022
+> 
+>Code version: N/A
+> 
+>Availability: [Udacity-Intro-to-data-secience](https://learn.udacity.com/nanodegrees/nd025/parts/cd0017/lessons/e630cd91-988b-46bb-ad6c-4a0737172630/concepts/1dd4a20f-c4ad-474a-ab56-14f7050affb9)
