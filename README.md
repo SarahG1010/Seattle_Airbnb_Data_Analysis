@@ -26,8 +26,26 @@ In this part,I answer my questions. For the first 2 questions, I use EDA to find
 * **Question3:How well can I predict the price(in airbnb) of a property based on the data?**
 >Based on the model results, the best R-square for test data is 0.527. The best model use 19 out of 38 features as predictors.
 
+### Acknowledgement:
 
-#### References:
+#### Files in this repo:
+* `calendar.csv` : Seattle Airbnb Open Data 
+
+* `listings.csv`: Seattle Airbnb Open Data
+
+* `reviews.csv`: Seattle Airbnb Open Data
+
+* `seattle-airbnb-data-analysis.ipynb`: Notebook containing data analysis
+
+#### Libraries:
+* numpy == 1.25.2
+* pandas == 2.0.3
+* matplotlib == 3.7.1
+* seaborn == 0.13.1
+* scikit-learn == 1.2.2
+
+### References:
+#### Source code:
 >Function name: `find_optimal_lm_mod(X, y, cutoffs, test_size = .30, random_state=42, plot=True)`
 > 
 >Lesson Title: `Putting It All Together - Solution.ipynb` 
