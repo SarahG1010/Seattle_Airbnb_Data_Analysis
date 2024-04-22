@@ -15,8 +15,8 @@ In this part,I clean up the 'listing' dataset,and prepare 3 sub-datasets for eac
 In this part,I answer my questions. For the first 2 questions, I use EDA to find the answer, and for question 3, I train a model and assessing its accuracy
 
 ### Questions and Findings
-* **Question1: What kinds of property are the favorate type in airbnb?**
->From host side, they prefer to list 'entire home/apartment' as room type. House and apartment are their favorate listing property type.
+* **Question1: What kinds of property are the favorite type in airbnb?**
+>From host side, they prefer to list 'entire home/apartment' as room type. House and apartment are their favorite listing property type.
 
 >From customer side, they are more willing to write reviews for property type 'Cabin' and room type 'Private room'
 * **Question2:Which neighborhood are most popular?**
