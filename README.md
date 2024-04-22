@@ -1,5 +1,7 @@
 # Seattle Airbnb Data Analysis
 
+A Blog post for this project is on Medium. You can check here [A deep look into Seattle Airbnb business](https://medium.com/@ziyu1211/a-deep-look-into-seattle-airbnb-business-42c2e1b0e7ab).
+
 ### Description
 This project is to analyse the '[Seattle Airbnb Open Data](https://www.kaggle.com/datasets/airbnb/seattle/data)" from kaggle. The analysis focused on 3 questions and I use both EDA and Modeling to find answers to 3 questions.
 There are 3 parts in this project.
@@ -15,8 +17,8 @@ In this part,I clean up the 'listing' dataset,and prepare 3 sub-datasets for eac
 In this part,I answer my questions. For the first 2 questions, I use EDA to find the answer, and for question 3, I train a model and assessing its accuracy
 
 ### Questions and Findings
-* **Question1: What kinds of property are the favorate type in airbnb?**
->From host side, they prefer to list 'entire home/apartment' as room type. House and apartment are their favorate listing property type.
+* **Question1: What kinds of property are the favorite type in airbnb?**
+>From host side, they prefer to list 'entire home/apartment' as room type. House and apartment are their favorite listing property type.
 
 >From customer side, they are more willing to write reviews for property type 'Cabin' and room type 'Private room'
 * **Question2:Which neighborhood are most popular?**
@@ -24,8 +26,26 @@ In this part,I answer my questions. For the first 2 questions, I use EDA to find
 * **Question3:How well can I predict the price(in airbnb) of a property based on the data?**
 >Based on the model results, the best R-square for test data is 0.527. The best model use 19 out of 38 features as predictors.
 
+### Acknowledgement:
 
-#### References:
+#### Files in this repo:
+* `calendar.csv` : Seattle Airbnb Open Data 
+
+* `listings.csv`: Seattle Airbnb Open Data
+
+* `reviews.csv`: Seattle Airbnb Open Data
+
+* `seattle-airbnb-data-analysis.ipynb`: Notebook containing data analysis
+
+#### Libraries:
+* numpy == 1.25.2
+* pandas == 2.0.3
+* matplotlib == 3.7.1
+* seaborn == 0.13.1
+* scikit-learn == 1.2.2
+
+### References:
+#### Source code:
 >Function name: `find_optimal_lm_mod(X, y, cutoffs, test_size = .30, random_state=42, plot=True)`
 > 
 >Lesson Title: `Putting It All Together - Solution.ipynb` 
