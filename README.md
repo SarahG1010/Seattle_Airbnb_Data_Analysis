@@ -1,5 +1,7 @@
 # Seattle Airbnb Data Analysis
 
+A Blog post for this project is on Medium. You can check here [A deep look into Seattle Airbnb business](https://medium.com/@ziyu1211/a-deep-look-into-seattle-airbnb-business-42c2e1b0e7ab).
+
 ### Description
 This project is to analyse the '[Seattle Airbnb Open Data](https://www.kaggle.com/datasets/airbnb/seattle/data)" from kaggle. The analysis focused on 3 questions and I use both EDA and Modeling to find answers to 3 questions.
 There are 3 parts in this project.
